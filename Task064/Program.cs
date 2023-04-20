@@ -11,12 +11,12 @@ int GetNumber()
 }
 void PrintNum(int m, int n)
 {
-    
-if (n>=m)
-{
-    PrintNum(m+1, n);
-    Console.Write(m+" ");
-}
+        
+    if (n>=m)
+    {
+        PrintNum(m+1, n);
+        Console.Write(m+" ");
+    }
 }
 int n =GetNumber();
 PrintNum(1, n);
